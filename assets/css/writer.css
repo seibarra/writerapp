@@ -1,0 +1,46 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.story-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0.3rem 1rem;
+}
+
+.writing-section {
+    max-width: 800px;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    min-height: calc(100vh - 300px);
+    border: 1px solid #6a6a6a;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    color: #f4f4f4;
+    padding: 1rem;
+    field-sizing: content;
+    box-sizing: border-box;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    background-color: #333;
+    height: 300px;
+}
